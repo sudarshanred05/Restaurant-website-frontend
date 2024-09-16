@@ -1,0 +1,221 @@
+.totalnavbar{
+            width: 99%;
+            height: 32px;
+            flex-shrink: 0;
+            background: rgba(0, 0, 0, 0.92);
+            color: #FFFFFF;
+            position: fixed;
+        }
+        .mainimage{
+            width: 100%;
+            height: 802px;
+            flex-shrink: 0;
+        }
+        .textinimage{
+            position: absolute;
+            left: 100px;
+            top: 391px;
+            width: 850px;
+            height: 76px;
+            flex-shrink: 0;
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Bengali;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 23.593px */
+        }
+        .ourbelif{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 30.774px */
+            letter-spacing: 7.2px;
+        }
+        .image1{
+            width: 631px;
+            height: 422px;
+            flex-shrink: 0;
+            margin-left: 80px;
+            border-radius: 12px;
+        }
+        .image1text{
+            /* display: inline-block; */
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            width: 487px;
+            height: 342px;
+            flex-shrink: 0;
+            float: right;
+            margin-right: 100px;
+        }
+        .text1{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            margin-top: 96px;
+        }
+        .bgdiv{
+            height: 832px;
+            flex-shrink: 0;
+            background-color: #ECD7C8;
+            margin-top: 50px;
+        }
+        .ourteam{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 30.774px */
+            letter-spacing: 7.2px;
+            padding-top: 78px;
+        }
+        .bgdivimg{
+            width: 731px;
+            height: 422px;
+            flex-shrink: 0;
+            margin-left: 72px;
+            margin-top: 65px;
+            border-radius: 12px;
+        }
+        .bgdivtext{
+            /* display: inline-block; */
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            width: 487px;
+            height: 217px;
+            flex-shrink: 0;
+            float: right;
+            padding-top: 110px;
+            margin-right: 90px;
+        }
+        .details{
+            height: 130px;
+            flex-shrink: 0;
+            background: rgba(26, 22, 22, 0.98);
+        }
+        .daddress{
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Tamil;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            width: 273px;
+            height: 22.829px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 69px;
+            margin-top: 20px;
+        }
+        .dhome{
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Tamil;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            position: absolute;
+            left: 69px;
+            margin-top: 80px ;
+        }
+        .dsub{
+            color: #E7DDDD;
+            font-family: Lohit Bengali;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            width: 366px;
+            height: 36px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 45%;
+            margin-top: 20px;
+        }
+        .dimg{
+            width: 349px;
+            height: 19.317px;
+            flex-shrink: 0;
+            background: rgba(217, 217, 217, 0.68);
+            position: absolute;
+            left: 45%;
+            margin-top: 60px;
+        }
+        .lessthan{
+            color:rgba(0, 0, 0, 0.56);
+            font-family: Lohit Bengali;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 18.464px */
+            width: 13px;
+            height: 15.805px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 67%;
+            margin-top: 62px;
+        }
+        .dcontact{
+            color: #FFF;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 102.58%; /* 13.335px */
+            letter-spacing: 0.195px;
+            position: absolute;
+            left: 1300px;
+            margin-top: 30px;
+        }
+        .dsocial{
+            width: 83px;
+            height: 15.397px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 1300px;
+            margin-top: 65px;
+        }
+        .name{
+            position: absolute;
+            left: 11px;
+            font-size: x-large;
+            font-family: 'Linden Hill', serif;
+
+        }
+        .nameflex{
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+        }
+        .totalnavbar img{
+            width: 16px;
+            height: 20px;
+            margin-top: 10px;
+        }
