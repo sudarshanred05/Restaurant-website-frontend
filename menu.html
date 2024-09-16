@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airplane restarent</title>
+    <link rel="icon" href="./icon.jfif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Linden+Hill&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .totalnavbar{
+            width: 99%;
+            height: 32px;
+            flex-shrink: 0;
+            background: rgba(0, 0, 0, 0.92);
+            color: #FFFFFF;
+            position: fixed;
+        }
+        .mainimage{
+            width: 100%;
+            height: 802px;
+            flex-shrink: 0;
+        }
+        .textinimage{
+            position: absolute;
+            left: 100px;
+            top: 391px;
+            width: 850px;
+            height: 76px;
+            flex-shrink: 0;
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Bengali;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 23.593px */
+        }
+        .ourbelif{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 30.774px */
+            letter-spacing: 7.2px;
+        }
+        .image1{
+            width: 631px;
+            height: 422px;
+            flex-shrink: 0;
+            margin-left: 80px;
+            border-radius: 12px;
+        }
+        .image1text{
+            /* display: inline-block; */
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            width: 487px;
+            height: 342px;
+            flex-shrink: 0;
+            float: right;
+            margin-right: 100px;
+        }
+        .text1{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            margin-top: 96px;
+        }
+        .bgdiv{
+            height: 832px;
+            flex-shrink: 0;
+            background-color: #ECD7C8;
+            margin-top: 50px;
+        }
+        .ourteam{
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 30.774px */
+            letter-spacing: 7.2px;
+            padding-top: 78px;
+        }
+        .bgdivimg{
+            width: 731px;
+            height: 422px;
+            flex-shrink: 0;
+            margin-left: 72px;
+            margin-top: 65px;
+            border-radius: 12px;
+        }
+        .bgdivtext{
+            /* display: inline-block; */
+            color: #000;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 27.697px */
+            letter-spacing: 6.48px;
+            width: 487px;
+            height: 217px;
+            flex-shrink: 0;
+            float: right;
+            padding-top: 110px;
+            margin-right: 90px;
+        }
+        .details{
+            height: 130px;
+            flex-shrink: 0;
+            background: rgba(26, 22, 22, 0.98);
+        }
+        .daddress{
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Tamil;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            width: 273px;
+            height: 22.829px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 69px;
+            margin-top: 20px;
+        }
+        .dhome{
+            color: #FFF;
+            text-align: center;
+            font-family: Lohit Tamil;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            position: absolute;
+            left: 69px;
+            margin-top: 80px ;
+        }
+        .dsub{
+            color: #E7DDDD;
+            font-family: Lohit Bengali;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 13.335px */
+            width: 366px;
+            height: 36px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 45%;
+            margin-top: 20px;
+        }
+        .dimg{
+            width: 349px;
+            height: 19.317px;
+            flex-shrink: 0;
+            background: rgba(217, 217, 217, 0.68);
+            position: absolute;
+            left: 45%;
+            margin-top: 60px;
+        }
+        .lessthan{
+            color:rgba(0, 0, 0, 0.56);
+            font-family: Lohit Bengali;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102.58%; /* 18.464px */
+            width: 13px;
+            height: 15.805px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 67%;
+            margin-top: 62px;
+        }
+        .dcontact{
+            color: #FFF;
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 102.58%; /* 13.335px */
+            letter-spacing: 0.195px;
+            position: absolute;
+            left: 1300px;
+            margin-top: 30px;
+        }
+        .dsocial{
+            width: 83px;
+            height: 15.397px;
+            flex-shrink: 0;
+            position: absolute;
+            left: 1300px;
+            margin-top: 65px;
+        }
+        .name{
+            position: absolute;
+            left: 11px;
+            font-size: x-large;
+            font-family: 'Linden Hill', serif;
+
+        }
+        .nameflex{
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+        }
+        .totalnavbar img{
+            width: 16px;
+            height: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="totalnavbar">
+       <div class="name"><i>Airplane restarent</i></div>
+            <div class="nameflex"><p>HOME</p>
+            <p>MAKE A RESERVATION</p>
+            <p>ABOUT US</p>
+            <p>CONTACT US</p>
+        <img src="./Frame 1.png"></div>
+    </div>
+    <img class="mainimage"src="./main image.png" alt="image of restarent">
+    <div class="textinimage">
+        <p>
+            “Food brings people together on many different levels. It's nourishment of the soul and body; it's truly love.”
+        </p>
+    </div>
+    <p class="ourbelif">Our Belief</p>
+    <div>
+        <img class="image1" src="./image1.png">
+        <div class="image1text"><p>“We believe that everyone should have access to delicious, high-quality food. That's why we offer a variety of affordable options, including classic American dishes, international cuisine, and healthy options. We also offer a variety of delivery options to make it easy for you to get your favorite food, no matter where you are.”</p></div>
+    </div>
+    <div class="text1">
+        <p>Our team of experienced chefs uses fresh, seasonal ingredients to prepare our food with care. We are committed to providing our customers with the best possible dining experience.</p>
+    </div>
+    <div class="bgdiv">
+        <div class="ourteam"><p>Our team</p></div>
+        <div>
+            <img class="bgdivimg"src="./image2.png" alt="2nd image">
+            <div class="bgdivtext"><p>We are proud of our kitchen team and the delicious food that they create. We are committed to providing our customers with a positive dining experience, and we know that our kitchen team is essential to our success.</p></div>
+        </div>
+    </div>
+    <div class="details">
+        <div class="daddress"><p>Alphine Restaurent,71 King St, Warners Bay,Lake Macquarie, New South Wales</p></div>
+        <div class="dhome"><p>HOME   |   ONLINE SHOP    |    SITE MAP    |    PRIVACY POLICY </p></div>
+        <div class="dsub"><p>Subscribe to our newsletter and receive the latest updates</p></div>
+        <div>
+            <img src="./taskbar.svg" class="dimg">
+            <div class="lessthan"><b>></b></div>
+        </div>
+        <div class="dcontact"><p>Connect with us</p></div>
+        <div class="dsocial"><img src="./socialmedia.svg"></div>
+    </div>
+</body>
+</html>
